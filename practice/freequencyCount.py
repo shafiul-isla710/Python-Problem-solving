@@ -8,4 +8,6 @@ for item in myStr:
     else:
         freequency[item] = 1
 
-print(freequency)
+
+for i,count in freequency.items():
+    print(f"{i}:{count}")
